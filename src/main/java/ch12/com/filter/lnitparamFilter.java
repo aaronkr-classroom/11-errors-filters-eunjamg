@@ -8,11 +8,9 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
 
-
-
-
-
 public class InitparamFilter implements Filter {
+	
+	
    @Override
    public void init(FilterConfig filterConfig) 
          throws ServletException {

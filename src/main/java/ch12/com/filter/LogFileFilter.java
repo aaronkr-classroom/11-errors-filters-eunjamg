@@ -13,7 +13,7 @@ import java.io.IOException;
 
 
 public class LogFileFilter implements Filter {
-   @Override
+
    public void init(FilterConfig filterConfig) 
          throws ServletException {
       System.out.println("Filter03 초기화");
